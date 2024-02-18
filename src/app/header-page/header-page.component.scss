@@ -1,0 +1,27 @@
+.title_links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    margin-left: 30rem;
+    font-size: 1.5rem;
+    a{
+       text-decoration: none;
+       color: black;
+       padding: 2rem;
+    }
+    a:hover{
+        background-color: aqua;
+    }
+}
+.header_style{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    color: rgb(27, 26, 26);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4); 
+    font-size: 1.5rem;
+}
+.name-title{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
